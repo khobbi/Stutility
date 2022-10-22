@@ -1,0 +1,73 @@
+ <Project name="Stutility">
+	 <Developer>Hayford Edoonu (Edon)</Developer>
+ 	<Aim>
+		To bring most things that students(of UCC) usually need or do like taking notes,
+		visiting their portals, UCC-elearning sites, checking timetable, etc all into one app
+		for easy accessibility.
+	</Aim>
+ 	<Versions>
+ 		<v1.1 code="1">
+ 			<Started>Started: 28th October, 2021, 15:9p </Started>
+ 			<Ended>20th December, 2021, 16:43</Ended>
+ 			<Activities>
+				Developed this version based on the main version which is in Java into Kotlin,
+				implemented few Material Design guides and components,
+				Improved the layout which was static into relatively responsive one,
+				implemented recycler view with custom adapter for lists that changed on runtime
+				(eg. List of other useful websites),
+				implemented webview in the app instead of opening external web browser,
+				implemented toolbars and menus (eg. in timetable activity),
+				implemented alert dialogs.
+				Refreshed and learnt lots about basic android development including SQLite database using SQLiteHelper class.
+				Data classes helped a lot in creating models of objects
+			</Activities>
+ 		</v1.1>
+ 		<v1.2.0 code="2">
+ 			<Started>1st January, 2022, 16:58, </Started>
+ 			<Ended>4th January, 2022, around 16:00</Ended>
+ 			<Activities>
+ 				Added a Todo list aspect to the app. Implemented custom dialog and checkboxes.
+				Stored offline with SLite database.
+ 			</Activities>
+ 		</v1.2.0>
+		<v1.2.1 code="3">
+			<Started>7th January, 2022, 15:50</Started>
+			<Ended> 7th January, 2022, 20: 17</Ended>
+			<Activities>
+				Improve the design of the web browser part of the app
+				Improved design of todo items, implemented popup menu for each item
+				for the edit and delete
+				Gave a tint background color to the items based on its priority color
+				implemented paint flags to the done todos (strike through)
+			</Activities>
+		</v1.2.1>
+		<v1.2.2 code="4">
+			<Started>8th January, 2022, 8:39</Started>
+			<Ended> 8th January, 2022, 8:48</Ended>
+			<Activities>
+				Added zoom controls to the webview (pinch to zoom)
+				Removed night mode theme and forced theme to be light even in dark mode
+				settings of host device
+			</Activities>
+		</v1.2.2>
+		<v1.2.3 code="5">
+			<Started>10th January, 2022, 11:50</Started>
+			<Ended> 10th January, 2022, 12:16</Ended>
+			<Activities>
+				Modified look of custom todo dialog
+				Making website fit to screen of device in the webview
+				Fixed height of webview top cardView(containing back, forward and refresh buttons)
+			</Activities>
+		</v1.2.3>
+	 <v1.2.4 code="6">
+		 <Started>25th February, 2022, 11:20</Started>
+		 <Ended> 27th February, 2022, 20:10</Ended>
+		 <Activities>
+			 Used recycler view in the MainActivity (dashboard) to implement the list
+			 which is more efficient and reduced the number of lines of code to view the dashboard
+			 Joined the courses and timetable tables in the Lecture database and set update and delete constraints
+			 Check existence of course before saving new one to avoid repetition
+		 </Activities>
+	 </v1.2.4>
+ </Versions>
+ </Project>

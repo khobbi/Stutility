@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable-xxxhdpi/priority_moderate.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/priority_high.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/priority_low.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/priority_moderate.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/rounded_corner.xml" value="0.19" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/rounded_corner2.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/rounded_corner_for_timetable.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/rounded_corner_for_timetable2.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/splash_inner.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/splash_main.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/drawable/todo_shape.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/font/.xml" value="0.184375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/font/montserrat.xml" value="0.184375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/font/myfont.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/font/roboto.xml" value="0.184375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout-v21/activity_calculate_gpa.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_about.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_browser.xml" value="0.3146067415730337" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_calculate_gpa.xml" value="0.5" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_edit_course_name.xml" value="0.5" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_gpahelp.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_new_edit_note.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_new_schedule.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_notes.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_other_elearning.xml" value="0.18199233716475097" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_register_courses.xml" value="0.5645161290322581" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_result.xml" value="0.9" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_schedule_preview.xml" value="0.5" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_splash_screen.xml" value="0.67" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_timetabel_help.xml" value="0.5" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_timetable.xml" value="0.5645161290322581" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/activity_todo.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/custom_course_name_layout.xml" value="0.9147826086956522" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/custom_dashboard_item.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/custom_day_with_courses_container.xml" value="0.75" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/custom_dialog_todo_new_and_edit.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/custom_layout_for_note.xml" value="0.3645699614890886" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/custom_layout_note.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/custom_lecture_layout.xml" value="0.5" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/custom_todo_layout.xml" value="0.75" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/delete_dialog_layout.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/other_sites_adapter_layout.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/layout/toolbar_timetable_activity.xml" value="0.5" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/menu/course_names_menu.xml" value="0.5" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/menu/timetable_menu.xml" value="0.5" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/menu/todo_options.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjectsk/Stutility/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16614583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

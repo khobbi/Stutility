@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Stutility" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_yellow</item>
+        <item name="colorPrimaryVariant">@color/blackish</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blackish</item>
+        <item name="colorSecondaryVariant">@color/dark_yellow</item>
+        <item name="colorOnSecondary">@color/greyish</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/GoogleSansTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.NoAppBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_yellow</item>
+        <item name="colorPrimaryVariant">@color/dark_yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blackish</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/greyish</item>
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <!--for the splash screen-->
+    <style name="Theme.NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/light_yellow</item>
+        <item name="colorPrimaryDark">@color/blackish</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <!--hides status bar - and this did the magic!-->
+        <item name="android:windowFullscreen">true</item>
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <!--for dashboard-->
+    <style name="Theme.NoActionBarTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/light_yellow</item>
+        <item name="colorPrimaryDark">@color/blackish</item>
+        <item name="colorAccent">@color/white</item>
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <!--for timetable-->
+    <style name="Theme.NoAppBarTtb" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_yellow</item>
+        <item name="colorPrimaryVariant">@color/blackish</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blackish</item>
+        <item name="colorSecondaryVariant">@color/dark_yellow</item>
+        <item name="colorOnSecondary">@color/greyish</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+</resources>

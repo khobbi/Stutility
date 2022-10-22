@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Stutility</string>
+    <string name="all_you_need_in_one_place">All You Need In One Place</string>
+    <string name="stutility">STUTILITY</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="calculate_gpa">Calculate GPA</string>
+    <string name="student_portal">Student Portal</string>
+    <string name="timetable">Timetable</string>
+    <string name="about">About</string>
+    <string name="ucc_e_learning_platform">UCC E-Learning Platform</string>
+    <string name="programmer">Programmer:</string>
+    <string name="programmerName">Hayford Edoonu (Edon)</string>
+    <string name="email">Email:</string>
+    <string name="emailAddress">edoonu@gmail.com</string>
+    <string name="version">Version</string>
+    <string name="versionNumber">1.2.4</string>
+    <string name="under_construction">Under Construction</string>
+    <string name="courses">N. </string>
+    <string name="assessments_40">Assessment (40%)</string>
+    <string name="exam_score_60">Exam Score (60%)</string>
+    <string name="credit">Credit</string>
+    <string name="eg_50">Eg. 50</string>
+    <string name="eg_30">Eg. 30</string>
+    <string name="calculate">Calculate</string>
+    <string name="courses2">Courses</string>
+    <string name="grades">Grades</string>
+    <string name="remarks">Remarks</string>
+    <string name="gpa">GPA:</string>
+    <string name="class_">Class:</string>
+    <string name="gpa_help">The GPA calculator is just to help you <b>predict your GPA</b> for the semester depending on your own assessment of yourself. i.e <b>How focussed you are,
+        the marks you are getting in your quizzes and assignments and the marks you predict to get in your final exam for the semester.</b>
+\n\n
+        Each course is represented by the numbers 1 - 10. Provide the assessments of each course (quizzes, exercises, assignments, attendance, etc)
+all summing up to 40 (40\% of the total marks). Input the Exam score for each course which makes up 60\% of the total scores
+Choose the appropriate credit hours for each course (0 - 4) and hit the Calculate button to calculate your GPA for the Semester
+\n\n
+There is a maximum of 10 courses, and a maximum of 4 credits for each. If your courses aren\'t up to 10, leave the rest unfilled.
+\n\n
+The results are based on University of Cape Coast (UCC) grading system.
+\n\n
+<b>Grading Scale</b>
+\n
+The University uses letter grades and corresponding numerical weightings which reflect the quality of performance.
+        Total raw scores (combination of continuous assessment and end-of-semester examination) are converted according to the following scheme\:
+\n</string>
+    <string name="gpa_help2">
+\n<b>Degree Classification</b>\n
+Undergraduate degree programmes are classified according to the candidate’s Cumulative Grade Point Average [CGPA]. The classifications are as follows:
+\n</string>
+    <string name="fresh_button">Fresh Button</string>
+    <string name="forward_button">Forward Button</string>
+    <string name="backward_button">Backward Button</string>
+    <string name="note_title">Note title</string>
+    <string name="please_create_new_note">Please create new note</string>
+    <string name="note_description">Note description</string>
+    <string name="lecturer">Lecturer:</string>
+    <string name="classroom">Classroom:</string>
+    <string name="starts">Starts:</string>
+    <string name="ends">Ends:</string>
+    <string name="no_timetable">No timetable</string>
+    <string name="register_courses">Register\nCourses</string>
+    <string name="new_schedule">New\nSchedule</string>
+    <string name="help">Help</string>
+    <string name="reset">Reset Timetable</string>
+    <string name="clear_courses">Clear Courses</string>
+    <string name="timetable_help"><b>Getting started</b>\n\n
+<b>Register Course</b>\n
+Click REGISTER COURSES button > [Enter course name in Course Name field] > ADD COURSE button
+\n\n
+<b>Edit or Delete Course</b>\n
+Long press on course > EDIT(if you want to change course name) or DELETE(if you want to clear off course) or CANCEL(exit Choose Action dialog)\n
+(In Editing mode) > Type new name > SAVE\n
+\n
+<b>Delete All registered courses</b>\n
+Click Clear Courses icon on Toolbar > CONFIRM\n
+\n
+<b>Create new schedule</b>\n
+Click NEW SCHEDULE button > [Select course from Courses Drop down list] > [Enter classroom or venue in Classroom field] > [Type in lecture\'s name in Lecturer field] > [Beginning and End of lecture times (Starts, Ends)] > [Select day for lecture from Days drop down list] > SAVE button\n
+\n
+<b>Edit or Delete Schedule</b>\n
+Long press on lecture > EDIT(if you want to edit schedule) or DELETE(if you want to clear schedule) or CANCEL(exit Choose Action dialog).\n
+(In Editing mode) > Make all necessary changes > SAVE\n
+\n
+<b>Delete All Schedules</b>\n
+Click Reset Timetable icon on Toolbar > CONFIRM\n
+    \nYellow for Lecture, Green for Personal</string>
+
+    <string name="class_designation">Class Designation</string>
+    <string name="about_act">About</string>
+    <string name="timetable_act">Timetable</string>
+    <string name="calc_act">GPA Calculator</string>
+    <string name="notes_act">Notes</string>
+    <string name="save">Save</string>
+    <string name="other_e_learning_platforms">Other E-learning Platforms</string>
+    <string name="bible_quotation">For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life</string>
+    <string name="todo_list">Todo List</string>
+    <string name="done_todos">Done Todos</string>
+    <string name="priority">Priority</string>
+    <string name="discard">Discard</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string-array name="credits">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="priorities">
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Low</item>
+    </string-array>
+
+</resources>

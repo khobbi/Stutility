@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:contentPadding="5dp"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:id="@+id/tvCourseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C NAME"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/roboto_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/google_sans"
+            android:text="@string/classroom"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvClassroom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvCourseName" />
+
+        <TextView
+            android:id="@+id/tvClassroom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/google_sans"
+            android:text="Calc4 the quick brown fox jumps over the lazy dog"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/blackish"
+            app:layout_constraintEnd_toStartOf="@+id/scheduleTypeColor"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/tvClass"
+            app:layout_constraintTop_toBottomOf="@+id/tvCourseName" />
+
+        <TextView
+            android:id="@+id/tvLect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/google_sans"
+            android:text="@string/lecturer"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvLecturer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvLecturer" />
+
+        <TextView
+            android:id="@+id/tvLecturer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/google_sans"
+            android:text="Dr. Eghan the quick brown"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/blackish"
+            app:layout_constraintEnd_toStartOf="@+id/scheduleTypeColor"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/tvLect"
+            app:layout_constraintTop_toBottomOf="@+id/tvClassroom" />
+
+        <TextView
+            android:id="@+id/tvStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/rounded_corner1"
+            android:fontFamily="@font/google_sans"
+            android:text="00:00"
+            android:textColor="@color/blackish"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCourseName" />
+
+        <TextView
+            android:id="@+id/tvEndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner2"
+            android:fontFamily="@font/google_sans"
+            android:text="00:59"
+            android:textColor="@color/blackish"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvStartTime" />
+
+        <TextView
+            android:id="@+id/tvstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:fontFamily="@font/google_sans"
+            android:text="@string/starts"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvStartTime"
+            app:layout_constraintEnd_toStartOf="@+id/tvStartTime"
+            app:layout_constraintTop_toTopOf="@+id/tvStartTime" />
+
+        <TextView
+            android:id="@+id/tvEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="3dp"
+            android:fontFamily="@font/google_sans"
+            android:text="@string/ends"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvEndTime"
+            app:layout_constraintEnd_toStartOf="@+id/tvEndTime"
+            app:layout_constraintTop_toTopOf="@+id/tvEndTime" />
+
+        <LinearLayout
+            android:id="@+id/scheduleTypeColor"
+            android:layout_width="5dp"
+            android:layout_height="0dp"
+            android:background="@drawable/rounded_corner_for_timetable"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCourseName">
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

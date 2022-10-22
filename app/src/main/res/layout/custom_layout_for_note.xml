@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardNote"
+    app:contentPadding="10dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="5dp"
+    android:focusable="true"
+    android:clickable="true"
+    app:cardBackgroundColor="@color/noteback_yellow"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvNoteTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Note Title"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/blackish"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvNoteDescription"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linLaySeparator"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:orientation="horizontal"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/dark_yellow"
+                app:layout_constraintEnd_toStartOf="@+id/imgDeleteNote"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvNoteTitle">
+
+            </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNoteDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/google_sans"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="The quick brownhhhhhhhh fox jumps over the lazy dog"
+            android:textColor="@color/blackish"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/imgDeleteNote"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linLaySeparator" />
+
+            <ImageView
+                android:id="@+id/imgDeleteNote"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:fontFamily="@font/google_sans"
+            android:text="Last update: dd/mm/yyyy 00:00:00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvNoteDescription" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyish"
+    tools:context=".BrowserActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardWebNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btnWebBack"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_arrow_back_24"
+                android:onClick="backBtn" />
+
+            <ImageButton
+                android:id="@+id/btnWebForward"
+                android:layout_width="28dp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_height="28dp"
+                android:layout_marginEnd="24dp"
+                android:onClick="forwardBtn"
+                android:src="@drawable/ic_arrow_forward_24" />
+
+            <ImageButton
+                android:id="@+id/btnWebReload"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_marginEnd="8dp"
+                android:onClick="reloadBtn"
+                android:src="@drawable/ic_refresh_24" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <ProgressBar
+        android:id="@+id/prgBar1"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/webViewMain" />
+    <WebView
+        android:id="@+id/webViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardWebNavigation" />
+</androidx.constraintlayout.widget.ConstraintLayout>
