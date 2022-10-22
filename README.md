@@ -9,5 +9,13 @@ To bring most things that students(of UCC) usually need or do like taking notes,
 ### Tools
 * Android Studio
 ### Languages
-* Kotlin
+#### FrontEnd
 * XML
+#### BackEnd
+* Kotlin
+## Screenshots
+![App Screenshot](https://github.com/khobbi/Stutility/blob/207a9925675d454059fd330974a84c70780ab599/screenshots/stutility5.jpg)
+![App Screenshot](https://github.com/khobbi/Stutility/blob/207a9925675d454059fd330974a84c70780ab599/screenshots/stutility4.jpg)
+![App Screenshot](https://github.com/khobbi/Stutility/blob/207a9925675d454059fd330974a84c70780ab599/screenshots/stutility3.jpg)
+![App Screenshot](https://github.com/khobbi/Stutility/blob/207a9925675d454059fd330974a84c70780ab599/screenshots/stutility2.jpg)
+![App Screenshot](https://github.com/khobbi/Stutility/blob/207a9925675d454059fd330974a84c70780ab599/screenshots/stutility_1.jpg)
