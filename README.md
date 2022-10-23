@@ -3,8 +3,12 @@ Student utility app for University of Cape Coast (UCC) students
 ## General Information
 To bring most things that students(of UCC) usually need or do like taking notes, visiting their portals, UCC-elearning sites, checking timetable, etc all into one app for easy accessibility.
 ## Features
-* feature 1
-* feature 2
+* UCC student portal
+* UCC E-learning site
+* Other useful sites - some elearning sites suitable for taking various courses and gaining new knowledge and skills
+* Timetable - create and organise your plans here
+* Todo list - list some thing you would want to do at a later time
+* GPA calculator
 ## Technologies
 ### Tools
 * Android Studio
