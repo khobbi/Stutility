@@ -69,5 +69,12 @@
 			 Check existence of course before saving new one to avoid repetition
 		 </Activities>
 	 </v1.2.4>
+		<v1.2.4 code="6">
+			<Started>4th November, 2022, 13:4</Started>
+			<Ended> 4th November, 2022, 13:7</Ended>
+			<Activities>
+				Changed navigation bar color to match app bar color - black
+			</Activities>
+		</v1.2.4>
  </Versions>
  </Project>

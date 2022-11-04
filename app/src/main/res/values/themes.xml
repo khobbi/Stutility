@@ -28,6 +28,7 @@
         <item name="colorOnSecondary">@color/greyish</item>
 
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:navigationBarColor">@color/black</item>
     </style>
 
     <!--for the splash screen-->
