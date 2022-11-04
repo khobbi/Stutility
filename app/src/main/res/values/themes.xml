@@ -15,6 +15,7 @@
         <item name="android:textViewStyle">@style/GoogleSansTextViewStyle</item>
         <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:navigationBarColor">@color/black</item>
     </style>
 
     <style name="Theme.NoAppBar" parent="Theme.MaterialComponents.Light.NoActionBar">
