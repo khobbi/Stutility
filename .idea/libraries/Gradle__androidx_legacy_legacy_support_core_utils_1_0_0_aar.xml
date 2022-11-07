@@ -2,9 +2,10 @@
   <library name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/79884c7a6aa86cb834447018b80c8408/transformed/legacy-support-core-utils-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/875e07c7d9c2c5e5ee4f174382f5fb4a/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradlek/caches/transforms-3/875e07c7d9c2c5e5ee4f174382f5fb4a/transformed/legacy-support-core-utils-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/875e07c7d9c2c5e5ee4f174382f5fb4a/transformed/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/0b626b793134e203e9d77407482c624b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradlek/caches/transforms-3/0b626b793134e203e9d77407482c624b/transformed/legacy-support-core-utils-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/0b626b793134e203e9d77407482c624b/transformed/legacy-support-core-utils-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

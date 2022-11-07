@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/aa04640ee9b04b6ba7b69b700c6eba3d/transformed/core-runtime-2.1.0/res" />
       <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/2319d372797f3efd648bfc4e047644db/transformed/core-runtime-2.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradlek/caches/transforms-3/2319d372797f3efd648bfc4e047644db/transformed/core-runtime-2.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/2319d372797f3efd648bfc4e047644db/transformed/core-runtime-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradlek/caches/transforms-3/22eb259cbf1a4aa11334cf36c7a52187/transformed/core-runtime-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/22eb259cbf1a4aa11334cf36c7a52187/transformed/core-runtime-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradlek/caches/transforms-3/22eb259cbf1a4aa11334cf36c7a52187/transformed/core-runtime-2.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
