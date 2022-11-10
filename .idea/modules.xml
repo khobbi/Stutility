@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Stutility.iml" filepath="$PROJECT_DIR$/.idea/modules/Stutility.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Stutility.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Stutility.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Stutility.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Stutility.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Stutility.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Stutility.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Stutility.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Stutility.app.unitTest.iml" />
     </modules>
   </component>
 </project>
